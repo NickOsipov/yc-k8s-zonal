@@ -1,5 +1,11 @@
-from invoke import task
+"""
+Script: tasks.py
+Description: Файл с описанием задач для управления проектом
+"""
+
 import os
+
+from invoke import task
 
 @task
 def init(ctx):
