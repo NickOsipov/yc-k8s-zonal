@@ -1,0 +1,11 @@
+config = {
+  zone      = "ru-central1-b"
+  token     = "your-oauth-token"
+  cloud_id  = "your-cloud-id"
+  folder_id = "your-folder-id"
+}
+
+cluster_name         = "k8s-cluster"
+network_name         = "k8s-network"
+subnet_name          = "k8s-subnet"
+service_account_name = "k8s-service-account"
